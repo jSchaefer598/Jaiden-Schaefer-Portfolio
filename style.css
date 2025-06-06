@@ -1,4 +1,9 @@
 body{
-    background-color: aliceblue;
+    background-color: #fff;
     align-items: center;
+}
+
+h1{
+    color: #2b6777;
+    text-align: center;
 }
