@@ -13,3 +13,8 @@ h1{
     display: block;
     justify-content: center;
 }
+
+.subheader{
+    color: #2b6777;
+    text-align: center;
+}
