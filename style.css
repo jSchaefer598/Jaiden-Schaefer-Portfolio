@@ -4,6 +4,12 @@ body{
 }
 
 h1{
-    color: #2b6777;
+    color: #fff;
     text-align: center;
+}
+
+.header{
+    background-color: #2b6777;
+    display: block;
+    justify-content: center;
 }
