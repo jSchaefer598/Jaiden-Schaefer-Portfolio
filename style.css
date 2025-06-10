@@ -1,20 +1,31 @@
 body{
-    background-color: #fff;
-    align-items: center;
+    background-color: #d5f1ef;
 }
 
 h1{
-    color: #fff;
+    color: #d5f1ef;
     text-align: center;
 }
 
-.header{
-    background-color: #2b6777;
-    display: block;
+div{
+    display: flex;
     justify-content: center;
 }
 
+.header{
+    display: flex;
+    background-color: #18455d;
+    display: block;
+    justify-content: center;
+    width: 40%;
+}
+
 .subheader{
-    color: #2b6777;
+    color: #18455d;
     text-align: center;
+}
+
+.icon{
+    border-radius: 50%;
+    margin: .5%;
 }
