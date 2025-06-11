@@ -7,6 +7,12 @@ h1{
     text-align: center;
 }
 
+a:link {
+  color: #d5f1ef;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 div{
     display: flex;
     justify-content: space-evenly;
