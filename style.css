@@ -13,7 +13,7 @@ a:link {
   text-decoration: none;
 }
 
-div{
+.container{
     display: flex;
     justify-content: space-evenly;
 }
@@ -39,4 +39,17 @@ div{
 .main{
     display: flex;
     justify-content: center;
+}
+
+.contact{
+    color:#18455d;
+}
+
+.links{
+    display: flex;
+}
+
+p{
+    color: #18455d;
+    font-size: 15px;
 }
