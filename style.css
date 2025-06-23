@@ -1,3 +1,9 @@
+body{
+    background-image: url(crystal.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: #d5f1ef;
+}
 
 h1{
     color: #d5f1ef;
@@ -55,19 +61,21 @@ h3{
     color: #18455d;
 }
 
-.top-image{
-    z-index: -1;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    position: fixed;
-}
-
 .content{
     background-color: #d5f1ef;
 }
 
 img.hobbies{
     border-radius: 50%;
+    width: 15%;
+    transition: 2s;
+}
+
+img.hobbies:hover{
     width: 24%;
+}
+
+.hobbies-images{
+    display: flex;
+    justify-content: space-around;
 }
