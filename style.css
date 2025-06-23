@@ -68,5 +68,6 @@ h3{
 }
 
 img.hobbies{
+    border-radius: 50%;
     width: 24%;
 }
