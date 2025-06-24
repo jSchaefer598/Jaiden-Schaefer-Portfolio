@@ -19,6 +19,7 @@ a:link {
 .container{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 10px;
 }
 
 .header{
@@ -79,4 +80,18 @@ img.hobbies:hover{
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+}
+
+.dark-mode{
+    /* display: none; */
+    background-color: #d5f1ef;
+    color: #18455d;
+    border-width: 0px;
+}
+
+.light-mode{
+    display: none;
+    background-color: #18455d;
+    color: #d5f1ef;
+    border-width: 0px;
 }
