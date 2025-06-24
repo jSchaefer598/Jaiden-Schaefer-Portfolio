@@ -83,10 +83,13 @@ img.hobbies:hover{
 }
 
 .dark-mode{
-    /* display: none; */
+    display: block;
     background-color: #d5f1ef;
     color: #18455d;
     border-width: 0px;
+    height: 25px;
+    width: 100px;
+    font-size: 15px;
 }
 
 .light-mode{
@@ -94,4 +97,7 @@ img.hobbies:hover{
     background-color: #18455d;
     color: #d5f1ef;
     border-width: 0px;
+    height: 25px;
+    width: 100px;
+    font-size: 15px;
 }
