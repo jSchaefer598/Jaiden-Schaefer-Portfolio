@@ -15,6 +15,9 @@ let email = document.querySelector("#email");
 let call = document.querySelector("#call");
 let github = document.querySelector("#github");
 
+let emailText = document.querySelector("#mail");
+let callText = document.querySelector("#phone");
+let githubText = document.querySelector("#hub");
 
 // Check in localstorage is dark mode is enabled
 let isDarkModeEnabled = localStorage.getItem("isDarkModeEnabled");
@@ -71,6 +74,9 @@ darkMode.addEventListener("click", function(){
     email.src = "emailDark.png";
     call.src = "callDark.png";
     github.src = "githubDark.png";
+    emailText.style.color = "#d5f1ef";
+    callText.style.color = "#d5f1ef";
+    githubText.style.color = "#d5f1ef";
 });
 
 lightMode.addEventListener("click", function(){
@@ -91,6 +97,9 @@ lightMode.addEventListener("click", function(){
     email.src = "email.png";
     call.src = "call.png";
     github.src = "github.png";
+    emailText.style.color = "#18455d";
+    callText.style.color = "#18455d";
+    githubText.style.color = "#18455d";
 });
 
 
