@@ -31,13 +31,13 @@ if(isDarkModeEnabled === "true") {
     lightMode.style.display = "block";
     header.style.backgroundColor = "#18455d";
     headerText.style.color = "#d5f1ef";
+    header2.style.color = "#d5f1ef";
+    content.style.backgroundColor = "#18455d";
+    content.style.color = "#d5f1ef";
     contact.src = "images/navbarImages/phone.png";
     resume.src = "images/navbarImages/resume.png";
     projects.src = "images/navbarImages/projects.png";
     aboutMe.src = "images/navbarImages/aboutMe.png";
-    header2.style.color = "#d5f1ef";
-    content.style.backgroundColor = "#18455d";
-    content.style.color= "#d5f1ef";
     paragraph.style.color = "#d5f1ef";
 } else {
     console.log("set css to light mode");

@@ -1,10 +1,10 @@
 body{
-    background-image: url(images/crystal.jpg);
-    background-size:cover;
+    background-image:url(crystal.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-color: #d5f1ef;
 }
-/* Image from website: https://stock.adobe.com/search?k=crystal%20matrix */
+
+/* Image from website: https://www.pinterest.com/pin/1125968651028300/ */
 
 h1{
     color: #18455d;
@@ -79,7 +79,7 @@ img.hobbies:hover{
 
 .hobbies-images{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-bottom: 20px;
 }
 
