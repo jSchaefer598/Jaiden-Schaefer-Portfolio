@@ -14,10 +14,14 @@ let aboutMe = document.querySelector("#about-me");
 let email = document.querySelector("#email");
 let call = document.querySelector("#call");
 let github = document.querySelector("#github");
+let linkedin = document.querySelector("#linkedin");
 
 let emailText = document.querySelector("#mail");
 let callText = document.querySelector("#phone");
 let githubText = document.querySelector("#hub");
+let linkedinText = document.querySelector("#linked");
+
+let resumeImg = document.querySelector(".resume");
 
 // Check in localstorage is dark mode is enabled
 let isDarkModeEnabled = localStorage.getItem("isDarkModeEnabled");
@@ -74,9 +78,11 @@ darkMode.addEventListener("click", function(){
     email.src = "images/contactImages/emailDark.png";
     call.src = "images/contactImages/callDark.png";
     github.src = "images/contactImages/githubDark.png";
+    linkedin.src = "images/contactImages/linkedinDark.png";
     emailText.style.color = "#d5f1ef";
     callText.style.color = "#d5f1ef";
     githubText.style.color = "#d5f1ef";
+    linkedinText.style.color = "#d5f1ef";
 });
 
 lightMode.addEventListener("click", function(){
@@ -97,9 +103,13 @@ lightMode.addEventListener("click", function(){
     email.src = "images/contactImages/email.png";
     call.src = "images/contactImages/call.png";
     github.src = "images/contactImages/github.png";
+    linkedin.src  = "images/contactImages/linkedin.png";
     emailText.style.color = "#18455d";
     callText.style.color = "#18455d";
     githubText.style.color = "#18455d";
+    linkedinText.style.color = "#18455d";
 });
 
-
+resumeImg.addEventListener("click", function(){
+    resumeImg.style.width = "45%";    
+});

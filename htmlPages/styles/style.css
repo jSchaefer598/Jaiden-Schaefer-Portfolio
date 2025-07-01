@@ -56,7 +56,7 @@ a:link {
 
 p{
     color: #18455d;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 h3{
@@ -125,4 +125,22 @@ img.hobbies:hover{
 
 .card img{
     width: 100%;
+}
+
+.card-holder{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#linkedin{
+    border-radius: 25%;
+}
+
+.resume{
+    width: 25%;
+    transition: 2s;
+}
+
+.resume:hover{
+    width: 45%;
 }
