@@ -106,3 +106,23 @@ img.hobbies:hover{
 .info{
     margin-left: 10px;
 }
+
+.card {
+    background-color: #d5f1ef;
+    color: #18455d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    width: 20%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+.card-info {
+    padding: 2px 16px;
+}
+
+.card img{
+    width: 100%;
+}
