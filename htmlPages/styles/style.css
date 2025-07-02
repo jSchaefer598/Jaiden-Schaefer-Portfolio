@@ -144,3 +144,13 @@ img.hobbies:hover{
 .resume:hover{
     width: 45%;
 }
+
+.headshot{
+    width: 25%;
+    border-radius: 25%;
+}
+
+.languages img{
+    width: 25%;
+    margin-left: 5px;
+}

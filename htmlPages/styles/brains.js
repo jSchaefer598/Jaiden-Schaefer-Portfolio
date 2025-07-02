@@ -6,6 +6,10 @@ let headerText = document.querySelector("h1");
 let header2 = document.querySelector("h2");
 let content = document.querySelector(".content");
 let paragraph = document.querySelector("p");
+let mailText = document.querySelector(".mail");
+let numberText = document.querySelector(".number");
+let gitText = document.querySelector(".git");
+let linkinText = document.querySelector(".linkin");
 
 let contact = document.querySelector("#contact");
 let resume = document.querySelector("#resume");
@@ -79,10 +83,10 @@ darkMode.addEventListener("click", function(){
     call.src = "images/contactImages/callDark.png";
     github.src = "images/contactImages/githubDark.png";
     linkedin.src = "images/contactImages/linkedinDark.png";
-    emailText.style.color = "#d5f1ef";
-    callText.style.color = "#d5f1ef";
-    githubText.style.color = "#d5f1ef";
-    linkedinText.style.color = "#d5f1ef";
+    mailText.style.color = "#d5f1ef";
+    numberText.style.color = "#d5f1ef";
+    gitText.style.color = "#d5f1ef";
+    linkinText.style.color = "#d5f1ef";
 });
 
 lightMode.addEventListener("click", function(){
@@ -104,10 +108,10 @@ lightMode.addEventListener("click", function(){
     call.src = "images/contactImages/call.png";
     github.src = "images/contactImages/github.png";
     linkedin.src  = "images/contactImages/linkedin.png";
-    emailText.style.color = "#18455d";
-    callText.style.color = "#18455d";
-    githubText.style.color = "#18455d";
-    linkedinText.style.color = "#18455d";
+    mailText.style.color = "#18455d";
+    numberText.style.color = "#18455d";
+    gitText.style.color = "#18455d";
+    linkinText.style.color = "#18455d";
 });
 
 resumeImg.addEventListener("click", function(){
