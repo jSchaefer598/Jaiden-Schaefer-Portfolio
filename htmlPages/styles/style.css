@@ -150,7 +150,12 @@ img.hobbies:hover{
     border-radius: 25%;
 }
 
-.languages img{
+.lang-img{
     width: 25%;
     margin-left: 5px;
+}
+
+.languages{
+    display: flex;
+    justify-content: space-evenly;
 }
